@@ -1,0 +1,45 @@
+level 1
+ul:first-of-type
+{
+  background:green;
+
+}
+ul:nth-child(4)
+{
+  background:blue;
+}
+__________________________
+level 2
+li:nth-child(2n)
+{
+ background:red;
+}
+_____________________________
+level 3
+li:not(.no-strike)
+{
+  text-decoration:line-through;
+  color:silver;
+}
+_________________________________
+level 4
+li:nth-of-type(3):before
+{
+  content: "whoa--" ;
+}
+li:nth-of-type(4):before
+{
+  content: "test-" ;
+}
+_____________________________________
+level 5
+li:nth-of-type(5):before
+{
+  content: "-xx" ;
+}
+li:nth-of-type(6):before
+{
+  content: "-xx" ;
+}
+li:nth-of-type(7):before
+{
